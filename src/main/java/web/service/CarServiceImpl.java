@@ -24,7 +24,6 @@ public class CarServiceImpl implements CarService {
     }
 
     public List<Car> getCarsList(int count) {
-
         if (count <= 0 || count >=5) {
             return cars;
         } else {
